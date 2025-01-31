@@ -2,11 +2,14 @@
 int main() {
     int a,b,c;
     scanf("%c %c %c",&a,&b,&c);
-    if(a=R)
+    if(a=R){
     printf("Stop");
-    else if(b=G)
+    }
+    else if(b=G){
     printf("Go");
-    else
+    }
+    else{
     printf("Slow Down");
+    }
     return 0;
 }

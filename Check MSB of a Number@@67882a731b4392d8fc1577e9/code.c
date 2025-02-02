@@ -5,7 +5,8 @@ int main() {
     if (num&(1<<(size of (int)*8-1)) ){
     printf("Set");
     }
-    else
+    else{
     printf("Not Set");
+    }
     return 0;
 }

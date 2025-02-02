@@ -3,7 +3,7 @@ int main() {
     int num,shift,result;
     scanf("%d",&num);
     scanf("%d",&shift);
-    resul t= num<<shift;
+    result= num << shift;
     printf("%d\n",result);;
     return 0;
 }

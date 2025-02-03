@@ -1,15 +1,18 @@
 #include <stdio.h>
 int main() {
-    int a,b,c;
-    scanf("%c %c %c",&a,&b,&c);
-    if(a=R){
+    int x;
+    scanf("%c",&x);
+    if(x=='R'){
     printf("Stop");
     }
-    else if(b=G){
+    else if(x='G'){
     printf("Go");
     }
-    else{
+    else if (x=='Y'){
     printf("Slow Down");
+    }
+    else{
+        printf("Invalid input");
     }
     return 0;
 }

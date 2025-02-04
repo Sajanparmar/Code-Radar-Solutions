@@ -9,6 +9,16 @@ int main() {
     else if(op=='-'){
         calculation = x-y;
     }
-    else if(op=='')
+    else if(op=='*'){
+        calculation = x*y;
+    }
+    else if(op=='/'){
+        calculation =x/y;
+    }
+    else{
+        printf("error")
+        return 1;
+    }
+    printf("%d",calculation);
     return 0;
 }

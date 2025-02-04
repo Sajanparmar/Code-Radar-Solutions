@@ -13,7 +13,13 @@ int main() {
         calculation = x*y;
     }
     else if(op=='/'){
-        calculation = x/y;
+        if (y!=0) {
+            calculation = x/y;
+        }
+        else {
+            printf("Error");
+            return 1;
+        }
     }
     else{
         printf("error");

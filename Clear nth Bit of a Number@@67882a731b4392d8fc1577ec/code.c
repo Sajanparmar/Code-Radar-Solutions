@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &number);
     scanf("%d", &n);
     int result = clearNthBit(number, n);
-    printf("The number after clearing the %d-th bit is: %d\n", n, result);
+    printf(" %d\n", n, result);
 
     return 0;
 }

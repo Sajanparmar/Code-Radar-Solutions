@@ -6,6 +6,6 @@ int main() {
         position++;
         n >>= 1;
     }
-    printf("%d", position);
+    printf("%d\n", position);
     return 0;
 }

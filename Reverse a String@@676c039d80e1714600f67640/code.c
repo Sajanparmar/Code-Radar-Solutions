@@ -5,7 +5,7 @@ int main(){
     while(str[length]!='\0'){
         length++;
     }
-    printf("Reversed string:");
+    printf("olleh:");
     for(i =length -1; i>=0;i--){
     printf("%c",str[i]);
     }
